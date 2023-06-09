@@ -9,12 +9,12 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Firefox Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">2,999</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Chrome Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,111</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">1</th><th class="num attn">1</th><th class="num">23,110</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Firefox Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">1,126</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Chrome Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">12,071</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num attn">1</th><th class="num attn">1</th><th class="num">13,197</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Firefox Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m0">initialiSetup</a></td><td rowspan="1">1686292383207</td><td rowspan="1">2966</td></tr><tr><th colspan="4">Firefox Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1686292386190</td><td rowspan="1">0</td></tr><tr><th colspan="4">Firefox Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m2">scenario1</a></td><td rowspan="1">1686292386188</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Chrome Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m3">scenario1</a></td><td rowspan="1">1686292391502</td><td rowspan="1">11463</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Firefox Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m0">initialiSetup</a></td><td rowspan="1">1686292777529</td><td rowspan="1">1086</td></tr><tr><th colspan="4">Firefox Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1686292778640</td><td rowspan="1">0</td></tr><tr><th colspan="4">Firefox Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m2">scenario1</a></td><td rowspan="1">1686292778638</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Chrome Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m3">scenario1</a></td><td rowspan="1">1686292783702</td><td rowspan="1">5479</td></tr></tbody>
 </table>
 <h2>Firefox Test</h2><h3 id="m0">org.Manipal.testCases.TestCase1#initialiSetup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>6666</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no &apos;moz:firefoxOptions.binary&apos; capability provided, and no binary flag set on the command line 
 Host info: host: &apos;TJ&apos;, ip: &apos;192.168.56.1&apos;
@@ -99,21 +99,12 @@ remote stacktrace: [{fileName=RemoteNode.java, moduleVersion=null, moduleName=nu
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 ... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Chrome Test</h2><h3 id="m3">org.Manipal.testCases.TestCase1#scenario1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;All Mobile Phones&apos;]&quot;}
-  (Session info: chrome=114.0.5735.110)
+<h2>Chrome Test</h2><h3 id="m3">org.Manipal.testCases.TestCase1#scenario1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[text()=&apos;All Mobile Phones&apos;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;TJ&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\TJ\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:30127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.56.1:4444/sess..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4785246f30adb8eb6d0125a8be2d9627
-*** Element info: {Using=xpath, value=//*[text()=&apos;All Mobile Phones&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
@@ -126,6 +117,6 @@ Session ID: 4785246f30adb8eb6d0125a8be2d9627
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
