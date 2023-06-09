@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-09T06:06:55Z" name="TestingSuite" finished-at="2023-06-09T06:06:55Z" duration-ms="35">
+    <groups>
+    </groups>
+    <test started-at="2023-06-09T06:06:55Z" name="Test" finished-at="2023-06-09T06:06:55Z" duration-ms="35">
+      <class name="selenium.TestNGAnnotation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:selenium.TestNGAnnotation@14fa86ae]" started-at="2023-06-09T06:06:55Z" name="beforeClass" finished-at="2023-06-09T06:06:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testCase()[pri:0, instance:selenium.TestNGAnnotation@14fa86ae]" started-at="2023-06-09T06:06:55Z" name="testCase" finished-at="2023-06-09T06:06:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selenium.TestNGAnnotation@14fa86ae]" started-at="2023-06-09T06:06:55Z" name="beforeMethod" finished-at="2023-06-09T06:06:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selenium.TestNGAnnotation@14fa86ae]" started-at="2023-06-09T06:06:55Z" name="afterMethod" finished-at="2023-06-09T06:06:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selenium.TestNGAnnotation@14fa86ae]" started-at="2023-06-09T06:06:55Z" name="afterMethod" finished-at="2023-06-09T06:06:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testCase1()[pri:0, instance:selenium.TestNGAnnotation@14fa86ae]" started-at="2023-06-09T06:06:55Z" name="testCase1" finished-at="2023-06-09T06:06:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selenium.TestNGAnnotation@14fa86ae]" started-at="2023-06-09T06:06:55Z" name="beforeMethod" finished-at="2023-06-09T06:06:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selenium.TestNGAnnotation@14fa86ae]" started-at="2023-06-09T06:06:55Z" name="afterClass" finished-at="2023-06-09T06:06:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium.TestNGAnnotation -->
+      <class name="selenium.TestNGConcepts">
+        <test-method signature="testSceanrio1()[pri:0, instance:selenium.TestNGConcepts@4167d97b]" started-at="2023-06-09T06:06:55Z" name="testSceanrio1" finished-at="2023-06-09T06:06:55Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSceanrio1 -->
+      </class> <!-- selenium.TestNGConcepts -->
+    </test> <!-- Test -->
+  </suite> <!-- TestingSuite -->
+</testng-results>
