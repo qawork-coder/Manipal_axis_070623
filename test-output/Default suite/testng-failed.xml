@@ -6,6 +6,7 @@
       <class name="org.Manipal.testCases.TestCase1">
         <methods>
           <include name="scenario1"/>
+          <include name="tearDown"/>
           <include name="initialiSetup"/>
         </methods>
       </class> <!-- org.Manipal.testCases.TestCase1 -->
