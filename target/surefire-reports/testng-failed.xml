@@ -13,16 +13,4 @@
       </class> <!-- org.Manipal.testCases.TestCase1 -->
     </classes>
   </test> <!-- Firefox Test(failed) -->
-  <test thread-count="5" parallel="tests" name="Chrome Test(failed)" verbose="0">
-    <parameter name="Port" value="5555"/>
-    <classes>
-      <class name="org.Manipal.testCases.TestCase1">
-        <methods>
-          <include name="tearDown"/>
-          <include name="scenario1"/>
-          <include name="initialiSetup"/>
-        </methods>
-      </class> <!-- org.Manipal.testCases.TestCase1 -->
-    </classes>
-  </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

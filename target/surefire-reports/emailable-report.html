@@ -9,12 +9,12 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Firefox Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">1,126</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Chrome Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">12,071</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">1</th><th class="num attn">1</th><th class="num">13,197</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Firefox Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">3,157</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Chrome Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">81,339</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num attn">1</th><th class="num">0</th><th class="num">84,496</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Firefox Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m0">initialiSetup</a></td><td rowspan="1">1686292777529</td><td rowspan="1">1086</td></tr><tr><th colspan="4">Firefox Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1686292778640</td><td rowspan="1">0</td></tr><tr><th colspan="4">Firefox Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m2">scenario1</a></td><td rowspan="1">1686292778638</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Chrome Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m3">scenario1</a></td><td rowspan="1">1686292783702</td><td rowspan="1">5479</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Firefox Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m0">initialiSetup</a></td><td rowspan="1">1686293627971</td><td rowspan="1">3031</td></tr><tr><th colspan="4">Firefox Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1686293631103</td><td rowspan="1">0</td></tr><tr><th colspan="4">Firefox Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m2">scenario1</a></td><td rowspan="1">1686293631102</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Chrome Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">org.Manipal.testCases.TestCase1</td><td><a href="#m3">scenario1</a></td><td rowspan="1">1686293661865</td><td rowspan="1">41528</td></tr></tbody>
 </table>
 <h2>Firefox Test</h2><h3 id="m0">org.Manipal.testCases.TestCase1#initialiSetup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>6666</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no &apos;moz:firefoxOptions.binary&apos; capability provided, and no binary flag set on the command line 
 Host info: host: &apos;TJ&apos;, ip: &apos;192.168.56.1&apos;
@@ -99,24 +99,6 @@ remote stacktrace: [{fileName=RemoteNode.java, moduleVersion=null, moduleName=nu
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 ... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Chrome Test</h2><h3 id="m3">org.Manipal.testCases.TestCase1#scenario1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[text()=&apos;All Mobile Phones&apos;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;TJ&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at org.Manipal.pageObjects.MenuPage.menuNavigation(MenuPage.java:31)
-	at org.Manipal.testCases.TestCase1.scenario1(TestCase1.java:53)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Chrome Test</h2><h3 id="m3">org.Manipal.testCases.TestCase1#scenario1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
