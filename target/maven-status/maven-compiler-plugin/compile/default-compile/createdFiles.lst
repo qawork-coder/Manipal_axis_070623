@@ -1,0 +1,5 @@
+org\Manipal\pageObjects\MenuPage.class
+org\Manipal\pageObjects\MobilePage.class
+utils\Prac.class
+org\Manipal\pageObjects\HomePage.class
+org\Manipal\base\BaseConfigurations.class

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 2.366 s <<< FAILURE! - in TestSuite
+org.Manipal.testCases.TestCase1.initialiSetup  Time elapsed: 2.284 s  <<< FAILURE!
+java.lang.NoSuchMethodError: com.google.common.collect.ImmutableSortedSet.toImmutableSortedSet(Ljava/util/Comparator;)Ljava/util/stream/Collector;
+	at org.Manipal.testCases.TestCase1.initialiSetup(TestCase1.java:42)
+
+org.Manipal.testCases.TestCase1.initialiSetup  Time elapsed: 2.285 s  <<< FAILURE!
+java.lang.NoSuchMethodError: com.google.common.collect.ImmutableSortedSet.toImmutableSortedSet(Ljava/util/Comparator;)Ljava/util/stream/Collector;
+	at org.Manipal.testCases.TestCase1.initialiSetup(TestCase1.java:42)
+
