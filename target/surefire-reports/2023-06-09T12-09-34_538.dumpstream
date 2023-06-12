@@ -1,4 +1,0 @@
-# Created at 2023-06-09T12:09:35.104
-Boot Manifest-JAR contains absolute paths in classpath 'D:\TFS_Backup\TJ\Asreet_Tech\Axis_01062023\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-
